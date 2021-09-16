@@ -1,0 +1,29 @@
+{
+  "name": "generador-mensajes-random",
+  "version": "1.2.1",
+  "description": "Through executing a command, the user will receive a random message in console",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hola": "node bin/global.js"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "javascript"
+  ],
+  "author": "Sebastián Arocha <arochaking@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "generador-msg": "bin/global.js"
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sebastian-arocha/npm-generador-mensajes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sebastian-arocha/npm-generador-mensajes/issues"
+  },
+  "homepage": "https://github.com/sebastian-arocha/npm-generador-mensajes#readme"
+}
